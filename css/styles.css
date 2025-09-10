@@ -159,8 +159,14 @@ button {
 /* HERO */
 .hero {
   background-color: #2e2f42;
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/main-bg.jpg");
 }
 
 .hero-title {
@@ -262,6 +268,10 @@ button {
 
 .team-item-overlay {
   padding: 32px 0;
+}
+
+.team-subtitle{
+  text-align: center;
 }
 
 .img-title .team-subtitle {
