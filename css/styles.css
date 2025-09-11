@@ -231,6 +231,9 @@ button {
   width: calc((100% - 72px) / 4);
 }
 
+.features-icon {
+}
+
 .features-subtitle {
   margin-bottom: 8px;
 }
