@@ -437,3 +437,29 @@ button {
   color: #f4f4fd;
   max-width: 264px;
 }
+
+.footer-inner {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.footer-contacts {
+  position: absolute;
+  left: 540px;
+  top: 0;
+  width: calc(100% - 540px - 804px);
+}
+
+.footer-contacts-title {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.footer-team-icon-wrapper {
+  display: flex;
+  gap: 16px;
+}
