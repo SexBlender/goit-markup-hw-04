@@ -441,15 +441,19 @@ button {
 .footer-inner {
   display: flex;
   align-items: flex-start;
-  position: relative;
+  gap: 120px;
 }
 
-.footer-contacts {
+.footer-left {
+  max-width: 264px;
+}
+
+/* .footer-contacts {
   position: absolute;
   left: 540px;
   top: 0;
   width: calc(100% - 540px - 804px);
-}
+} */
 
 .footer-contacts-title {
   color: white;
