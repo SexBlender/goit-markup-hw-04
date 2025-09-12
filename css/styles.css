@@ -232,6 +232,16 @@ button {
 }
 
 .features-icon {
+  display: inline-block;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
 }
 
 .features-subtitle {
@@ -267,6 +277,7 @@ button {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-item-overlay {
@@ -289,6 +300,22 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.team-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 232px;
+  max-height: 40px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.team-icon {
+  stroke: #f4f4fd;
+  fill: #4d5ae5;
 }
 
 /* PORTFOLIO */
