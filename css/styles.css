@@ -438,7 +438,7 @@ button {
   max-width: 264px;
 }
 
-.footer-inner {
+.footer-container {
   display: flex;
   align-items: flex-start;
   gap: 120px;
