@@ -83,8 +83,6 @@ button {
 
 .footer .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -462,11 +460,10 @@ button {
 .footer-container {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
 }
 
 .footer-left {
-  max-width: 264px;
+  margin-right: 120px;
 }
 
 /* .footer-contacts {
@@ -484,7 +481,27 @@ button {
   margin-bottom: 16px;
 }
 
-.footer-team-icon-wrapper {
+.footer-icon-wrapper {
   display: flex;
   gap: 16px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.footer-icon-item {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.footer-icon-item:hover,
+.footer-icon-item:focus {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }
