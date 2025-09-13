@@ -69,6 +69,10 @@ button {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -78,6 +82,7 @@ button {
 }
 
 .footer .container {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -123,11 +128,24 @@ button {
   transition-property: color;
   transition-duration: 0.3s;
   transition-timing-function: linear;
+  position: relative;
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+}
+
+.header-menu-link.studio::after {
+  content: "";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  transition: width 0.3s ease;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* .header-menu-link:is(:hover, :focus) {
@@ -408,6 +426,8 @@ button {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-logo {
