@@ -332,6 +332,11 @@ button {
   margin-bottom: 8px;
 }
 
+.hz {
+  width: 40px;
+  height: 40px;
+}
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -403,9 +408,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-item-text {
+.portfolio-item:hover {
+box-shadow:  1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);  
+}
+
+.portfolio-item:hover .portfolio-item-text{
   transform: translateY(0);
-  box-shadow:  1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-cover {
@@ -509,9 +517,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
   color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5%;
+  line-height: 1.5;
   margin-bottom: 16px;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .footer-icon-wrapper {
